@@ -14,20 +14,21 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="./style.css">
 </head>
-<body class="bg-fuchsia-400 ">
+<body class="bg-gray-900 ">
     <div class="flex text-justify justify-between m-15 ">
-        <h3 class="text-3xl italic text-bold">Tech<span class="text-fuchsia-700">Wave</span></h3>
-        <ul class="justify-center flex gap-3 text-2xl">
+        <h3 class="text-3xl  italic text-bold text-blue-700">Tech<span class="text-fuchsia-700">Wave</span></h3>
+        <ul class="justify-center text-amber-50 flex gap-3 text-2xl">
             <li>About</li>
             <li>Episode</li>
             <li>Host</li>
         </ul>
 
-        <button  class="bg-fuchsia-100 rounded-4xl">Subscribe<i class="fa-solid fa-arrow-right ml-2"></i>
+        <button  class="bg-fuchsia-500 hover:bg-emerald-400 rounded-4xl">Subscribe<i class="fa-solid fa-arrow-right ml-2"></i>
 
        </button>
     </div>
-  <section class="relative w-full h-[770px] max-w-[1600px] mx-auto flex flex-col items-center justify-center overflow-hidden">
+    <!-- hero section -->
+  <section class="relative w-[1600] h-[full-780] max-w-[1600px]  mx-auto flex flex-col items-center justify-center overflow-hidden">
   
   <div class="absolute inset-0 z-0">
     <img 
@@ -35,7 +36,7 @@
       alt="Hero Background" 
       class="w-full h-full object-cover"
     >
-    <div class="absolute inset-0 bg-fuchsia-800  "></div>
+    <div class="absolute inset-0  "></div>
   </div>
 
   <div class="relative z-10 flex flex-col items-center text-center px-4">
@@ -45,10 +46,15 @@
         src="./assets/hero-circle.png" 
         alt="Profile or Icon" 
         class="w-full h-full object-cover"
+        
       >
+     
+    </div>
+    <div class="flex justify-center absolute top-17 items-center ">
+        <img src="assets/microphone.png" alt="">
     </div>
 
-    <div class="w-[550px] h-[100px] flex items-center justify-center bg-blue-600/80 rounded-full border-2 border-white/30 mb-6 px-6">
+    <div class="w-[550px] h-[100px] flex items-center justify-center  border-white/30 mb-6 px-6">
       <h2 class="text-white text-3xl font-bold uppercase tracking-widest">
         TechWave
       </h2>
@@ -59,11 +65,12 @@
     </p>
 
     <div class="flex gap-6 justify-center">
-          <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-full flex items-center transition-all transform hover:scale-105 shadow-xl">
-           Listen on Spotify
+          <button class="bg-fuchsia-800 hover:bg-cyan-500 text-white font-bold py-4 px-10 rounded-full flex items-center transition-all transform hover:scale-105 shadow-xl">
+          <i class="fa-brands fa-spotify"></i> Listen on Spotify
+        
       </button>
-      <button class="bg-transparent border-2 border-white hover:bg-white hover:text-blue-600 text-white font-bold py-4 px-10 rounded-full transition-all transform hover:scale-105 shadow-xl">
-
+      <button class="bg-transparent border-2 border-white hover:bg-fuchsia-800 hover:text-blue-600 text-emerald-500 font-bold py-4 px-10 rounded-full transition-all transform hover:scale-105 shadow-xl">
+<i class="fa-solid fa-inbox"></i>
         Subscribe
         <i class="fa-solid fa-arrow-right ml-3"></i>
       </button>
@@ -74,5 +81,65 @@
   </div>
 </section>
 
+
+<section class="w-[1600px] h-[647px]  mt-20 items-center  mx-auto  border-gray-700  text-white">
+
+    <h2 class="mt-[50px] text-4xl font-bold text-blue-500">
+       <section class="w-[1600px] h-[647px] bg-black flex flex-col items-center mx-auto border-4 border-gray-700 overflow-hidden text-white">
+
+    <h2 class="mt-[50px] text-4xl font-bold text-blue-500">
+      About the Podcast
+    </h2>
+
+   
+
+    <p class="mt-6 mx-[200px] mb-[120px] text-center text-lg text-gray-400 leading-relaxed">
+        TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
+We break down complex topics into digestible insights, explore productivity strategies that actually work,
+and share stories of personal growth from industry leaders.
+    </p>
+
+    <p class="text-3xl">
+       Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+    </p>
+    <div class="grid grid-cols-4 gap-8 w-full text-center flex flex-col justify-end items-end pt-55">
+
+        <div class="flex flex-col items-center">
+            <h1 class="text-5xl font-bold text-blue-500 mb-4 uppercase">150K</h1>
+            <p class="text-gray-400 text-sm leading-relaxed">
+                Monthly Listeners
+            </p>
+        </div>
+
+        <div class="flex flex-col items-center">
+            <h1 class="text-5xl font-bold text-red-500 mb-4 uppercase">200+</h1>
+            <p class="text-gray-400 text-sm leading-relaxed">
+               Episodes Published
+            </p>
+        </div>
+
+        <div class="flex flex-col items-center">
+            <h1 class="text-5xl font-bold text-green-500 mb-4 uppercase">4.9★</h1>
+            <p class="text-gray-400 text-sm leading-relaxed">
+             Average Rating
+            </p>
+        </div>
+
+        <div class="flex flex-col items-center">
+            <h1 class="text-5xl font-bold text-yellow-500 mb-4 uppercase">50+</h1>
+            <p class="text-gray-400 text-sm leading-relaxed">
+             Industry Experts
+            </p>
+        </div>
+
+</section>
+
+
+    </div>
+
+</section>
+
+
+   
 </body>
 </html>
