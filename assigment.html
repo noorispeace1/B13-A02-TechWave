@@ -3,9 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TechWave</title>
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body class="bg-fuchsia-400 ">
+    <div class="flex text-justify justify-between m-15 ">
+        <h3 class="text-3xl italic text-bold">Tech<span class="text-fuchsia-700">Wave</span></h3>
+        <ul class="justify-center flex gap-3 text-2xl">
+            <li>About</li>
+            <li>Episode</li>
+            <li>Host</li>
+        </ul>
+
+        <button  class="bg-fuchsia-100 rounded-4xl">Subscribe<i class="fa-solid fa-arrow-right ml-2"></i>
+
+       </button>
+    </div>
+  <section class="relative w-full h-[770px] max-w-[1600px] mx-auto flex flex-col items-center justify-center overflow-hidden">
+  
+  <div class="absolute inset-0 z-0">
+    <img 
+      src="../assets/hero-bg.png" 
+      alt="Hero Background" 
+      class="w-full h-full object-cover"
+    >
+    <div class="absolute inset-0 bg-fuchsia-800  "></div>
+  </div>
+
+  <div class="relative z-10 flex flex-col items-center text-center px-4">
     
+    <div class="w-[350px] h-[350px] rounded-full overflow-hidden border-8 border-white/20 shadow-2xl mb-6">
+      <img 
+        src="./assets/hero-circle.png" 
+        alt="Profile or Icon" 
+        class="w-full h-full object-cover"
+      >
+    </div>
+
+    <div class="w-[550px] h-[100px] flex items-center justify-center bg-blue-600/80 rounded-full border-2 border-white/30 mb-6 px-6">
+      <h2 class="text-white text-3xl font-bold uppercase tracking-widest">
+        TechWave
+      </h2>
+    </div>
+
+    <p class="max-w-[600px] text-white text-lg font-medium mb-10 drop-shadow-md">
+    Your daily dose of tech insights, productivity hacks, and personal growth
+    </p>
+
+    <div class="flex gap-6 justify-center">
+          <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-full flex items-center transition-all transform hover:scale-105 shadow-xl">
+           Listen on Spotify
+      </button>
+      <button class="bg-transparent border-2 border-white hover:bg-white hover:text-blue-600 text-white font-bold py-4 px-10 rounded-full transition-all transform hover:scale-105 shadow-xl">
+
+        Subscribe
+        <i class="fa-solid fa-arrow-right ml-3"></i>
+      </button>
+
+    
+    </div>
+
+  </div>
+</section>
+
 </body>
 </html>
